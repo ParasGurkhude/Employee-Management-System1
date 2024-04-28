@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav{
+    text-align: left;
+}
+
+
+#container{
+    border-collapse: collapse;
+    /* border: 2px solid rgb(140 140 140); */
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+button{
+    padding: 10px;
+}
+
+tr {
+  border: 1px solid rgb(160 160 160);
+  border-left: none;
+  border-right: none;
+  
+}
+tr>th{
+    background-color: azure;
+}
+td,th{
+    padding: 8px 10px;
+}
+
+#btn{
+    margin: auto;
+    margin-top: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+#btn>button{
+    padding: 5px 30px
+}
